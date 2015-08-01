@@ -1,0 +1,29 @@
+{
+  "name": "react-dev-helper",
+  "version": "0.1.0",
+  "description": "toolkits to help react/webpack developing",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "node dev-server"
+  },
+  "author": "hh9527",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^0.14.0-beta1"
+  },
+  "dependencies": {
+    "assets-webpack-plugin": "^2.2.0",
+    "babel-core": "^5.8.20",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.15.6",
+    "file-loader": "^0.8.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "react-hot-loader": "^1.2.8",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
